@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Admin Dashboard</title>
+    <link rel="stylesheet" href="../styles/admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menu Admin Dashboard</h1>
+        
+        <!-- Add New Item Form -->
+        <div class="form-section">
+            <h2>Add New Menu Item</h2>
+            <input type="text" id="newItemName" placeholder="Item Name">
+            <input type="number" id="newItemPrice" placeholder="Price" step="0.01">
+            <select id="newItemCategory">
+                <option value="appetizers">Appetizers</option>
+                <option value="main-courses">Main Courses</option>
+                <option value="desserts">Desserts</option>
+            </select>
+            <input type="text" id="newItemImage" placeholder="Image URL">
+            <button class="btn" onclick="addMenuItem()">Add Item</button>
+        </div>
+
+        <!-- Existing Menu Items -->
+        <div id="menuItemsList" class="menu-item-list">
+            <!-- Menu items will be dynamically populated here -->
+        </div>
+    </div>
+
+    <script src="../scripts/admin.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>

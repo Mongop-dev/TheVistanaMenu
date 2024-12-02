@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="../styles/customer-styles.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+</head>
+<body>
+    <header>
+        <h2>The Vistana Menu</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+     
+    <section class="hero">
+        <h1>Ted & Co - Menu Selection</h1>
+        <div>
+            <p>+ 234 9042222111, +234 9168340150, +234 9168340153</p>
+            <p>experience.vistana@swissinternationalhotels.com</p>
+        </div>
+        <div class="h">
+            <a href="#containerr" class="h-button">Check Menu</a>
+        </div>
+    </section>
+    
+    <div class="containerr" id="containerr">
+        <h1 class="menu-title">Ted & Co Menu</h1>
+        
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">☰ Categories</button>
+        
+        <div class="category-buttons" id="categoryButtons">
+            <button class="category-btn active" data-category="Swiss Cafe Menu">Soft Drinks</button>
+            <button class="category-btn" data-category="Sandwiches">A Time to Share</button>
+            <button class="category-btn" data-category="Small Chops">Skillet for Two</button>
+            <button class="category-btn" data-category="Pasta">Burgers & Co</button>
+            <button class="category-btn" data-category="Nigerian">Signature Cocktails</button>
+            <button class="category-btn" data-category="Starters">Mocktails</button>
+            <button class="category-btn" data-category="Hot-starter">Beer And Mixes</button>
+            <button class="category-btn" data-category="Pasta">Wine Selection</button>
+            <button class="category-btn" data-category="Asian">Sweet and Sparkling</button>
+            <button class="category-btn" data-category="Mama">Whiskey</button>
+            <button class="category-btn" data-category="Special">Cognac and Brandy</button>
+            <button class="category-btn" data-category="Vodka">Vodka</button>
+            <button class="category-btn" data-category="Gin">Gin</button>
+            <button class="category-btn" data-category="Tequilla">Tequilla And Shooters</button>
+            <button class="category-btn" data-category="Vermouth">Vermouth and Liquers</button>
+            <button class="category-btn" data-category="Juice">Smoothies And Fresh Juices</button>
+        </div>
+        
+        <div class="menu-grid" id="menuItems">
+            <!-- Menu items will be dynamically populated here -->
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>Plot 4 & 5, Road 8D</li>
+                <li>Victoria Garden City</li>
+                <li>Lekki-Epe Expressway</li>
+                <li>Lagos, Nigeria</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Connect With Us</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Vistana Hotels. All Rights Reserved.</p>
+        </div>
+    </footer>
+     
+    <script src="../scripts/c2-menu.js"></script>
+</body>
+</html>

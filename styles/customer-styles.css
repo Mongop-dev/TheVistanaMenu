@@ -137,7 +137,7 @@ body {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 468px) {
     .mobile-menu-toggle {
         display: block;
         position: fixed;

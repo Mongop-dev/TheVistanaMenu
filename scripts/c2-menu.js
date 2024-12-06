@@ -688,6 +688,451 @@ const menuData = {
             "description": ""
         }
     ],
+    "Whiskey": [
+        {
+            "name": "Gold Label",
+            "price": 126000,
+            "description": "Shots ₦4,500"
+            },
+            {
+            "name": "Green Label",
+            "price": 90000,
+            "description": "Shots ₦4,000"
+            },
+            {
+            "name": "Blue Label",
+            "price": 90000,
+            "description": ""
+            },
+            {
+            "name": "Black Label",
+            "price": 168000,
+            "description": "Shots ₦3,000"
+            },
+            {
+            "name": "Observatory",
+            "price": 180000,
+            "description": ""
+            },
+            {
+            "name": "Red Label",
+            "price": 50000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Jack Daniels",
+            "price": 110000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Gentleman Jack",
+            "price": 157500,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Chivas Regal 12 Years",
+            "price": 40000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Chivas Regal 18 Years",
+            "price": 80000,
+            "description": ""
+            },
+            {
+            "name": "White Horse",
+            "price": 15000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Grants 12 Years",
+            "price": 12000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Glenfiddich 12 Years",
+            "price": 130000,
+            "description": "Shots ₦6,000"
+            },
+            {
+            "name": "Glenfiddich 18 Years",
+            "price": 630000,
+            "description": ""
+            },
+            {
+            "name": "Glenfiddich 15 years",
+            "price": 300000,
+            "description": ""
+            },
+            {
+            "name": "Jameson Black",
+            "price": 85000,
+            "description": ""
+            },
+            {
+            "name": "Jameson Irish",
+            "price": 70000,
+            "description": "Shots ₦5,500"
+            },
+            {
+            "name": "Glenfiddich 21Years",
+            "price": 700000,
+            "description": ""
+            },
+    ],
+    "Cognac": [
+        {
+            "name": "Hennessy VSOP",
+            "price": 195000,
+            "description": "Shots ₦8,500"
+            },
+            {
+            "name": "Hennessy XO",
+            "price": 400000,
+            "description": ""
+            },
+            {
+            "name": "Hennessy VS",
+            "price": 170000,
+            "description": "Shots ₦7,000"
+            },
+            {
+            "name": "Hennessy VS Small Bottle",
+            "price": 180000,
+            "description": ""
+            },
+            {
+            "name": "Remy Martin VSOP",
+            "price": 498750,
+            "description": "Shots ₦10,500"
+            },
+            {
+            "name": "Remy Martin XO",
+            "price": 250000,
+            "description": ""
+            },
+            {
+            "name": "Martell VSOP",
+            "price": 120000,
+            "description": "Shots ₦4,000"
+            },
+            {
+            "name": "Martel Blue Swift",
+            "price": 180000,
+            "description": ""
+            },
+            {
+            "name": "Camus Grand VSOP",
+            "price": 45000,
+            "description": "Shots ₦5,000"
+            },
+            {
+            "name": "Martel Vs",
+            "price": 85000,
+            "description": "Shots ₦4,000"
+            },
+            {
+            "name": "Orijin Bitters",
+            "price": 3500,
+            "description": ""
+            },
+            {
+            "name": "Odogwu",
+            "price": 2500,
+            "description": ""
+            },
+            {
+            "name": "Martinellis",
+            "price": 18000,
+            "description": ""
+            },
+    ],
+    "Vodka": [
+        {
+            "name": "Absolut Blue",
+            "price": 40000,
+            "description": "Shots ₦2,000"
+            },
+            {
+            "name": "Absolute Mandarin",
+            "price": 40000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Smirn-Off",
+            "price": 50000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Ciroc Flavoured",
+            "price": 160000,
+            "description": "Shots ₦5,500"
+            },
+            {
+            "name": "Vodka Extract",
+            "price": 25000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Flirt Vodka",
+            "price": 35000,
+            "description": ""
+            },
+            {
+            "name": "Sky Vodka",
+            "price": 75000,
+            "description": ""
+            },
+            {
+            "name": "Absolute Vodka",
+            "price": 87000,
+            "description": ""
+            },
+            {
+            "name": "Olmeca (Hot Chocolate)",
+            "price": 75000,
+            "description": ""
+            },
+            {
+            "name": "Sierra Tequila",
+            "price": 60000,
+            "description": ""
+            },
+    ],
+    "Gin": [
+        {
+            "name": "Gordon",
+            "price": 35000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Bombay Sapphire",
+            "price": 97125,
+            "description": "Shots ₦1,500"
+            }
+    ],
+    "Tequilla": [
+        {
+            "name": "Bacardi Gold",
+            "price": 55000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Bacardi Superior",
+            "price": 40000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "St James",
+            "price": 15000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Elliot",
+            "price": 35000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Captain Morgan",
+            "price": 60000,
+            "description": "Shots ₦2,000"
+            },
+            {
+            "name": "Captain Morgan",
+            "price": 40000,
+            "description": ""
+            },
+            {
+            "name": "Tequila Gold Camino",
+            "price": 42000,
+            "description": "Shots ₦2,500"
+            },
+            {
+            "name": "Tequila Blanco White",
+            "price": 50000,
+            "description": "Shots ₦4,000"
+            },
+            {
+            "name": "Siera Tequla",
+            "price": 60000,
+            "description": ""
+            }
+    ],
+    "Vermouth": [
+
+    ],
+    "Juice": [
+        {
+            "name": "Campari",
+            "price": 15000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Martini Rosso",
+            "price": 53000,
+            "description": "Shots ₦3,000"
+            },
+            {
+            "name": "Martini Bianco",
+            "price": 47000,
+            "description": "Shots ₦7,000"
+            },
+            {
+            "name": "Pastis",
+            "price": 42000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Ricard",
+            "price": 12000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Baileys",
+            "price": 104000,
+            "description": "Shots ₦5,000"
+            },
+            {
+            "name": "Cointreau",
+            "price": 65000,
+            "description": "Shots ₦2,000"
+            },
+            {
+            "name": "Amarula",
+            "price": 15000,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Tia Maria",
+            "price": 11500,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Kahlua",
+            "price": 10500,
+            "description": "Shots ₦1,500"
+            },
+            {
+            "name": "Drambuie",
+            "price": 20500,
+            "description": "Shots ₦3,000"
+            },
+            {
+            "name": "Drambuie",
+            "price": 30000,
+            "description": "Amaretto"
+            },
+            {
+            "name": "Southern Comfort",
+            "price": 106000,
+            "description": "Amaretto"
+            },
+            {
+            "name": "Mini Campari",
+            "price": 15000,
+            "description": "Amaretto"
+            },
+            {
+            "name": "Crema Turron",
+            "price": 49000,
+            "description": ""
+            },
+            {
+            "name": "The Nines",
+            "price": 112000,
+            "description": ""
+            },
+            {
+            "name": "Malibu",
+            "price": 115500,
+            "description": ""
+            },
+            {
+            "name": "Cream De Cafe",
+            "price": 35000,
+            "description": ""
+            },
+            {
+            "name": "Power Smoothie",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Mixed Fruit Smoothie",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Pineapple Smoothie",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Watermelon Smoothie",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Cranberry Juice",
+            "price": 15000,
+            "description": ""
+            },
+            {
+            "name": "Tea and Coffee",
+            "price": 2000,
+            "description": ""
+            },
+            {
+            "name": "Pineapple Juice",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Watermelon Juice",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Orange Juice",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Mixed Juice",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Parfait Juice",
+            "price": 8000,
+            "description": ""
+            },
+            {
+            "name": "Fresh Juice",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Fresh Smoothie",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Chivita Juice",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "HollandiaYoghut",
+            "price": 6000,
+            "description": ""
+            },
+            {
+            "name": "Healthy Drink",
+            "price": 3000,
+            "description": ""
+            }
+    ]
     
 };
 

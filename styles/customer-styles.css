@@ -150,6 +150,24 @@ body {
         border-radius: 5px;
     }
 
+    .category-btn, .mobile-menu-toggle {
+        -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+        outline: none;
+    }
+    
+    .category-btn:focus, .mobile-menu-toggle:focus {
+        box-shadow: 0 0 0 3px rgba(58, 78, 143, 0.5); /* Visible focus state */
+    }
+
+    body {
+        font-size: 16px; /* Minimum recommended for mobile readability */
+    }
+    
+    .category-btn, .menu-item {
+        min-height: 44px; /* Recommended touch target size */
+        min-width: 44px;
+    }
+
     .category-buttons {
         display: none;
         position: sticky;
@@ -176,7 +194,7 @@ body {
 }
 
 /* Mobile-specific adjustments */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #menu-categories {
         flex-direction: column;
         align-items: center;
@@ -195,4 +213,4 @@ body {
         text-align: center;
         margin: 10px 0;
     }
-}
+} */

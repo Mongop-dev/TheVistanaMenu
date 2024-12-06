@@ -92,7 +92,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 21px;
+    font-size: 31px;
 }
 
 .category-btn:hover, .category-btn.active {
@@ -137,7 +137,7 @@ body {
     display: none;
 }
 
-@media (max-width: 468px) {
+/* @media (max-width: 468px) {
     .mobile-menu-toggle {
         display: block;
         position: fixed;
@@ -153,23 +153,23 @@ body {
 
     .category-btn, .mobile-menu-toggle {
         -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
-        outline: none;
+       /* outline: none;
     }
     
     .category-btn:focus, .mobile-menu-toggle:focus {
         box-shadow: 0 0 0 3px rgba(58, 78, 143, 0.5); /* Visible focus state */
-    }
+   /* }
 
     body {
         font-size: 16px; /* Minimum recommended for mobile readability */
-    }
+   /* }
     
     .category-btn, .menu-item {
         min-height: 44px; /* Recommended touch target size */
-        min-width: 44px;
-    }
+    /*    min-width: 44px;
+    }*/
 
-    .category-buttons {
+    /* .category-buttons {
         display: none;
         position: sticky;
         top: 0;
@@ -192,7 +192,7 @@ body {
         text-align: center;
         margin: 10px 0;
     }
-}
+} */
 
 /* Mobile-specific adjustments */
 /* @media screen and (max-width: 600px) {

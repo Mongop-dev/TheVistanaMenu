@@ -2,51 +2,61 @@
 const menuData = {
     "Swiss Cafe Menu": [
         {
+            image: "https://th.bing.com/th/id/OIP.f1Xvt921mRwYsyz0_EfpBgHaE8?rs=1&pid=ImgDetMain",
             name: "Swiss Cafe Early Bird",
             price: 7000,
             description: "2 Fried Eggs, Tomato, Sausages, Baked Beans & Toasts with Coffee or Tea"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.E0r3xqLSZXCRpEsyBBUGywHaE8&w=305&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "English Breakfast",
             price: 10000,
             description: "2 Scramble Eggs, Tomato, Sausages, Baked Beans & Toasts with Coffee or Tea"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.elCCN9Z_Z03D3SejtM-powHaFc&w=291&h=214&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "American Breakfast",
             price: 18000,
             description: "2 Croissants, Jam, Sausages, Baked Beans & with Coffee or Tea"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.uGD860EKwldJ-L53z0fFOQHaFh&w=289&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Swiss Cafe Continental Breakfast",
             price: 12000,
             description: "FRESH JUICE, TOAST, OVEN FRESH BREADROLL, BUTTER & JAM, CEREALS, CHOICE OF COFFEE OR TEA"
         },
         {
+            image: "",
             name: "NIGERIAN BREAKFAST",
             price: 7000,
             description: "TOAST, EGG SAUCE or KIDNEY SAUCE, PLANTAIN or YAM, COFFEE OR TEA"
         },
         {
+            image: "https://th.bing.com/th/id/OIP.2jhWYYMNktcZdfLzM3w9igHaF6?rs=1&pid=ImgDetMain",
             name: "Bircher Muesli",
             price: 5500,
             description: "The Classical swiss vitamin shot with oak flakes, yoghurt, and seasonal fruit"
         },
         {
+            image: "https://th.bing.com/th/id/OIP.dqqo9VgscWtEZqmw37ni3QHaJQ?rs=1&pid=ImgDetMain",
             name: "Fresh Fruit Salad",
             price: 4800,
             description: "Fresh Fruit Salad for You"
         },
         {
+            image: "https://th.bing.com/th/id/OIP.-Hry7Moz3pe3liW3mnv2TgHaE7?rs=1&pid=ImgDetMain",
             name: "Eggs And Noodles",
             price: 7000,
             description: "Duo of Fried or Boiled Eggs With Noodles"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.nUguj3WG4rGcSPu3rqMUGgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Two Eggs Omelette",
             price: 4500,
             description: "",
         },
         {
+            image: "https://th.bing.com/th?id=OIP.smJdALq5kPb0wh9vOC57FgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Spanish Omelette",
             price: 5800,
             description: "Two Eggs Omelette with Onions, Tomatoes, And Green Pepper"
@@ -54,51 +64,61 @@ const menuData = {
     ],
     "Sandwiches": [
         {
+            image: "https://th.bing.com/th/id/OIP.JTP4Zx_AVWhihAc_mRxYJAHaEs?pid=ImgDet&w=191&h=121&c=7",
             name: "Club Sandwich",
             price: 10000,
             description: "Fresh Vegetables, Shredded Chicken, Mayonnaise, Boiled Egg, and Bacon on Request. Served with French Fries."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.MnE0ktr42dWp9w5KtQCL_AHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Prawns Club Sandwich",
             price: 15000,
             description: "A Change from the Original Recipe Made with Curry-Boiled Prawns. Served with French Fries"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.BCvi9dMRQ4K0ALmtV0i6DgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Hamburger",
             price: 10000,
             description: "150 gr. Ground Meat Patty with Secret Homemade Sauce. Served with French Fries."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.bwg3l7jIB0cwsn4zY9gzFgHaE6&w=306&h=203&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Cheeseburger",
             price: 11000,
             description: "We add to the Original Hamburger recipe. A Slice of Cheddar Cheese served with French Fries"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.irAESz_dn4HqckbqCOxODQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Croque Monsieur",
             price: 10000,
             description: " From France, This Golden Brown Toasted Ham and Cheese Sandwich is served with French Fries and Coleslaw"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.x2vg5HgA4Rl9W12EEh1w1wHaF6&w=279&h=223&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Chicken Burger",
             price: 15000,
             description: "We Add to the Original Hamburger Recipe. A Slice of Cheddar Cheese served with French Fries"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.Szp2KEB2TWGX7SVrYoA9WwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Fresh Spring Rolls",
             price: 6000,
             description: "(4 Pieces) with Dipping Sauce"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.9cd5aubJTQzVbCuIHJtYTwHaGl&w=265&h=235&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Fresh Samosa",
             price: 6000,
             description: "(4 Pieces) with Dipping Sauce"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.HB79Zw8Ksp7b2h3YHfQVngHaFg&w=289&h=215&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Chicken Wrap",
             price: 10000,
             description: "comes with French fries"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.IpdJy9EBGFkJrSb__Wkb1AHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Italian Bruschetta",
             price: 5000,
             description: "2 Slices of Toasted Bread Gently Brushed with Garlic and Topped with Olive Oil, Fresh Tomato, and Oregano"
@@ -696,21 +716,25 @@ const menuData = {
     ],
     "Desserts": [
         {
+            image: "https://th.bing.com/th/id/OIP.7UmR6jAHmEjZMgIIWLEONAHaHa?rs=1&pid=ImgDetMain",
             name: "For Our Pastry Chefs",
             price: 5000,
             description: ""
         },
         {
+            image: "https://th.bing.com/th/id/OIP.04oNCFs9tycKuw5km0AwggHaHa?rs=1&pid=ImgDetMain",
             name: "Sliced Fruit Platter",
             price: 4000,
             description: "Seasonal Fresh Fruit From The Local Garden Market"
         },
         {
+            image: "https://th.bing.com/th/id/R.9195076216b2b7bc5c34f3a56a94429d?rik=edrRFJixUbfE2A&pid=ImgRaw&r=0",
             name: "Cake",
             price: 5000,
             description: "Choice of Cake"
         },
         {
+            image: "https://th.bing.com/th/id/R.92ae0cc42a8de29798f0acd4bb802676?rik=Zq2mRftyOJo8yA&pid=ImgRaw&r=0",
             name: "Fruit Salad",
             price: 6000,
             description: "Diced Seasonal Fruit From the Local Fruit Garden Market Dipped In Orange Juice and Sugar"
@@ -725,20 +749,55 @@ const categoryButtons = document.getElementById('categoryButtons');
 const mobileMenuToggle = document.getElementById('mobileMenuToggle');
 
 // Render menu items
+// Modify the renderMenuItems function in c-menu.js
 function renderMenuItems(category) {
     menuItemsContainer.innerHTML = '';
     
     menuData[category].forEach(item => {
         const menuItemElement = document.createElement('div');
         menuItemElement.classList.add('menu-item');
+        
         menuItemElement.innerHTML = `
-            <h3>${item.name}</h3>
-            <p class="menu-item-description">${item.description || ''}</p>
-            <p class="menu-item-price">₦${item.price.toLocaleString()}</p>
+            <div class="menu-item-image">
+                <img src="${item.image}" alt="${item.name}" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+                <h3>${item.name}</h3>
+                <p class="menu-item-description">${item.description || ''}</p>
+                <p class="menu-item-price">₦${item.price.toLocaleString()}</p>
+            </div>
         `;
         menuItemsContainer.appendChild(menuItemElement);
     });
 }
+// // Initial render
+// renderMenuItems("Swiss Cafe Menu");
+
+// // Category button click handler
+// categoryButtons.addEventListener('click', (e) => {
+//     if (e.target.classList.contains('category-btn')) {
+//         // Remove active class from all buttons
+//         categoryButtons.querySelectorAll('.category-btn').forEach(btn => {
+//             btn.classList.remove('active');
+//         });
+        
+//         // Add active class to clicked button
+//         e.target.classList.add('active');
+        
+//         // Render items for selected category
+//         renderMenuItems(e.target.dataset.category);
+        
+//         // Close mobile menu
+//         if (window.innerWidth <= 768) {
+//             categoryButtons.classList.remove('show');
+//         }
+//     }
+// });
+
+// // Mobile menu toggle
+// mobileMenuToggle.addEventListener('click', () => {
+//     categoryButtons.classList.toggle('show');
+// });
 
 // Initial render
 renderMenuItems("Swiss Cafe Menu");
@@ -766,5 +825,30 @@ categoryButtons.addEventListener('click', (e) => {
 
 // Mobile menu toggle
 mobileMenuToggle.addEventListener('click', () => {
-    categoryButtons.classList.toggle('show');
+    categoryButtons.classList.add('show');
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+});
+
+// Close menu handler
+closeButton.addEventListener('click', () => {
+    categoryButtons.classList.remove('show');
+    document.body.style.overflow = ''; // Restore scrolling
+});
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+    if (categoryButtons.classList.contains('show') && 
+        !categoryButtons.contains(e.target) && 
+        e.target !== mobileMenuToggle) {
+        categoryButtons.classList.remove('show');
+        document.body.style.overflow = '';
+    }
+});
+
+// Handle window resize
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        categoryButtons.classList.remove('show');
+        document.body.style.overflow = '';
+    }
 });

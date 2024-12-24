@@ -118,6 +118,30 @@ body {
     transform: scale(1.05);
 }
 
+.menu-item-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 15px;
+}
+
+.menu-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover .menu-item-image img {
+    transform: scale(1.05);
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
 .menu-item h3 {
     color: #3a4e8f;
     margin-bottom: 10px;
@@ -215,3 +239,121 @@ body {
         margin: 10px 0;
     }
 } */
+
+/* Mobile menu styles */
+@media (max-width: 768px) {
+    .containerr {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background: #2B3966;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        cursor: pointer;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .category-buttons {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 1000;
+        padding: 20px;
+        overflow-y: auto;
+    }
+
+    .category-buttons.show {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .category-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        background: white;
+        color: #2B3966;
+        border: 1px solid #2B3966;
+        border-radius: 8px;
+        text-align: left;
+    }
+
+    .category-btn.active {
+        background: #2B3966;
+        color: white;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .menu-item {
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .menu-item h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .menu-item-description {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .menu-item-price {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* Close button for mobile menu */
+    .close-menu {
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: white;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        z-index: 1001;
+        cursor: pointer;
+    }
+
+    .category-buttons.show .close-menu {
+        display: block;
+    }
+}

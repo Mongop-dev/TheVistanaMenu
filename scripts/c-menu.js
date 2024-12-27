@@ -416,51 +416,61 @@ const menuData = {
     ],
     "Nigerian": [
         {
+            image: "https://th.bing.com/th?id=OIP.stUMS3ITpC70ykP0nceEgAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Jollof Rice",
             price: 5000,
             description: "Traditional Recipe Cooked with Fresh Tomato Stew, Fresh Pepper, And Garnished with Peas"
         },
         {
+            image: "https://www.bing.com/th?id=OIP.dfk8KVHYq-kkIihfkQrajwHaE7&w=151&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Coconut Rice",
             price: 5000,
             description: "Cooked with Coconut Milk and Powder"
         },
         {
+            image: "https://www.bing.com/th?id=OIP.O_XNcuFuofI-SOLH1PKzjgHaEK&w=161&h=104&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Basmati Fried Rice",
             price: 7000,
             description: "Basmati Rice is Salted in Spicy Vegetable Oil with Chopped Onions, Carrots and Green Beans"
         },
         {
+            image: "https://www.bing.com/th?id=OIP.lVQU4NxuF3sDhQE_fIhKLAHaEs&w=150&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Special Fried Rice",
             price: 12000,
             description: "Basmati Rice is Salted in Spicy Vegetable Oil with Chopped Onions, Carrots, Green Beans, Diced chicken and Shrimp"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.2Nx5SKyoYN4NsdONAiDxWgHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Chinese Fried Rice",
             price: 12000,
             description: "Basmati Rice Salted in Spicy Vegetable Oil with Crumbled Eggs, Green Beans, Peas, Shrimp, Carrots and Chopped Onions"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.zeEisDabqsQ7OzUqmmV2ewHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name:"Jambalaya Rice",
             price: 15000,
             description: "Basmati Rice With Garlic, Chicken Breast, Sausage and Plantian In Tomato Sauce"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.Bxce6MgK0InXGt3KC-eSxQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Basmati Rice",
             price: 5000,
             description: "Basmati Rice"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.5nsY8ojyQLTBJq4gmZuXcgHaFS&w=295&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Ofada Rice With Sauce",
             price: 12000,
             description: "Ofada Rice, Ofada Sauce and Fried Plantain"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.cvWZzHTCmAdsRMSgGWQXrwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "White Rice",
             price: 3000,
             description: ""
         },
         {
+            image: "https://th.bing.com/th?id=OIP.lPHfjR94eSH936B17QmSGgHaHq&w=245&h=254&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Portage Beans",
             price: 8000,
             desscription: ""
@@ -468,46 +478,55 @@ const menuData = {
     ],
     "Starters": [
         {
+            image: "https://th.bing.com/th?id=OIP.7pd6ThuVGG6pAzK6CN9IrAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Caesar Salad",
             price: 14000,
             description: "Fresh Lettuce with Parmesan Cheese and Croutons"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.oWHBcrZMd80jkJV0bN1w9QHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Shrimp Cocktail",
             price: 15000,
             description: "Local Shrimps on a Bed of Grated Carrots"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.umIT0iX6ReADb1mI7vB-YgHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Mixed Vegetable Salad",
             price: 8000,
             description: "A Healthy Choice of a Mix od =f seasonal vehetables served with italian dressing"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.y7FMFpkobM0L9JN55Q5SwgHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "STARTERS & DELIGHTS WARM SHREDDED STIR FRY CHICKEN SALAD",
             price: 12000,
             description: "An original recipe from the mountains of Thailand composed of fresh lettuce, carrot, and spring onion topped with shredded fried chicken with cashew nuts and served with a dip of soy sauce and green curry."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.aSVCMSpBRxwYPra2SYSwLwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "COLESLAW",
             price: 4000,
             description: "A healthy choice for a mix of seasonal vegetables served with simple dressing."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.R15-AUb1n8aHwME-CjD7XgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "FRESH FRUIT SALAD",
             price: 6000,
             description: "A healthy choice for a mix of seasonal vegetables served with simple dressing."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.5rHZscwtwIwni4Yo7BQ_QgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "SWISS SALAD",
             price: 9000,
             description: "Created from the mind of our chef, an original recipe inspired by the land where our hotel was born. We mix for you fresh lettuce leaves with slices of green apple topped with small cubes of Gruyere cheese and served with French vinaigrette."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.3-xd_Qzwt98TR8RiNegSugHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "GREEK SALAD",
             price: 15000,
             description: "In the nest of democracy, they created this mix of flavour that we need to give you. On a bed of fresh lettuce leaves topped with fresh slices of tomatoes, cucumber, and green pepper, we garnish with Kalamata black olives and the famous feta cheese, served with garlic dressing."
         },
         {
+            image: "https://th.bing.com/th?id=OIP.5mH3m6atVE5M3xFEbDtQFwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "CONCORD SALAD",
             price: 8500,
             description: "With a combination of green beans, peas, celery, green pepper, and onions on a bed of cabbage, we mix on top the chopped chicken with mayonnaise and garnish with boiled egg and croutons."
@@ -515,56 +534,67 @@ const menuData = {
     ],
     "Hot-starter": [
         {
+            image: "https://th.bing.com/th?id=OIP.k1-nVY9xh5x_V93YizS9ugHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Chicken",
             price: 10000,
             description: "Chicken pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.SqG743trHZsQFKvc6CjPJgHaGp&w=263&h=236&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Goat Meat",
             price: 10000,
             description: "Goat Meat pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP._Ty2qVQBKYi3RhxMKBQD0gHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Cow Leg",
             price: 8000,
             description: "Cow Leg pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.M3PYJJXREBgbW8Uhu7xZtgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Titus Fish",
             price: 10000,
             description: "Titus Fish  pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.wKYx40UDyakwNOxOe3b4QgHaHC&w=256&h=243&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Portion Rock Fish",
             price: 10000,
             description: "Portion Rock pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.wKYx40UDyakwNOxOe3b4QgHaHC&w=256&h=243&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Whole Rock Fish",
             price: 20000,
             description: "Whole Rock Fish pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.v8Y_T-7t3AA438c_nqZr-gHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Whole CatFish",
             price: 20000,
             description: "Whole CatFish pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.v8Y_T-7t3AA438c_nqZr-gHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Portion CatFish",
             price: 10000,
             description: "Portion CatFish pepper soup"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.A9GoOnawR9HDRkfyKZbEFgHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "French Onion Soup",
             price: 13000,
             description: "Topped With Gratinated Toast"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.0PTGR0kORPd_qyTMXmwstwHaDL&w=350&h=150&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Cream Of Mixed Vegetables",
             price: 6000,
             description: "A Mix Of Seasonal Fresh Vegetables, Blended and Thicked with Whipped Cream"
         },
         {
+            image: "https://th.bing.com/th?id=OIP.hxI0UAQlj9zCVjx9SDwSTAHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
             name: "Cream of Sweet Corn Soup",
             price: 8500,
             description: "We Blend the Sweet corn And Mix It With Stock And Spices Thickening it with Whipped Cream"
